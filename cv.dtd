@@ -1,0 +1,26 @@
+<!DOCTYPE CV [
+<!ELEMENT identite (prenom, nom, naissance, site)>
+	<!ELEMENT prenom (#PCDATA)>
+	<!ELEMENT nom (#PCDATA)>
+	<!ELEMENT naissance (#PCDATA)>
+	<!ELEMENT site (#PCDATA)>
+<!ELEMENT contact (adresse, tel, mail)>
+	<!ELEMENT adresse (numero, rue, cp, ville, pays)>
+		<!ELEMENT numero (#PCDATA)>
+		<!ELEMENT rue (#PCDATA)>
+		<!ELEMENT cp (#PCDATA)>
+		<!ELEMENT ville (#PCDATA)>
+		<!ELEMENT pays (#PCDATA)>
+<!ELEMENT custom (#PCDATA)>
+<!ELEMENT competence (#PCDATA)>
+<!ELEMENT formation (intitule, date, ecole, descriptif)>
+	<!ELEMENT intitule (#PCDATA)>
+	<!ELEMENT date (#PCDATA)>
+	<!ELEMENT ecole (#PCDATA)>
+	<!ELEMENT descriptif (#PCDATA)>
+<!ELEMENT experience (intitule, datedebut, datefin, lieux, descriptif)>
+	<!ELEMENT datedebut (#PCDATA)>
+	<!ELEMENT datefin (#PCDATA)>
+	<!ELEMENT lieux (#PCDATA)>
+<!ELEMENT hobbie (#PCDATA)>
+]>
