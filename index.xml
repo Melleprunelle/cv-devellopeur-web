@@ -3,5 +3,22 @@
 	<?xml-stylesheet href="style.css" type="text/css" ?>
 
 <page>
-
+	<section>
+		<identite></identite>
+	</section>
+	<section>
+		<formation></formation>
+	</section>
+	<section>
+		<competence></competence>
+	</section>
+	<section>
+		<contact></contact>
+	</section>
+	<section>
+		<experience></experience>
+	</section>
+	<section>
+		<custom></custom>
+	</section>
 </page>

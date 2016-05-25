@@ -1,6 +1,7 @@
 <!DOCTYPE CV [
-<!ELEMENT page (section*)>
-<!ELEMENT section (identite?, contact?, custom?, competence?, formation?, experience?, hobbie?)>
+<!ELEMENT page (section* article*)>
+<!ELEMENT section (article)>
+<!ELEMENT article (identite?, contact?, custom?, competence?, formation?, experience?, hobbie?)>
 <!ELEMENT identite (prenom, nom, naissance, site?)>
 	<!ELEMENT prenom (#PCDATA)>
 	<!ELEMENT nom (#PCDATA)>
