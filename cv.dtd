@@ -1,18 +1,20 @@
 <!DOCTYPE CV [
-<!ELEMENT page (#PCDATA)>
-<!ELEMENT section (#PCDATA)>
-<!ELEMENT identite (prenom, nom, naissance, site)>
+<!ELEMENT page (section*)>
+<!ELEMENT section (identite?, contact?, custom?, competence?, formation?, experience?, hobbie?)>
+<!ELEMENT identite (prenom, nom, naissance, site?)>
 	<!ELEMENT prenom (#PCDATA)>
 	<!ELEMENT nom (#PCDATA)>
 	<!ELEMENT naissance (#PCDATA)>
 	<!ELEMENT site (#PCDATA)>
 <!ELEMENT contact (adresse, tel, mail)>
-	<!ELEMENT adresse (numero, rue, cp, ville, pays)>
+	<!ELEMENT adresse (numero, rue, cp, ville, pays?)>
 		<!ELEMENT numero (#PCDATA)>
 		<!ELEMENT rue (#PCDATA)>
 		<!ELEMENT cp (#PCDATA)>
 		<!ELEMENT ville (#PCDATA)>
 		<!ELEMENT pays (#PCDATA)>
+	<!ELEMENT tel (#PCDATA)>
+	<!ELEMENT mail (#PCDATA)>
 <!ELEMENT custom (#PCDATA)>
 <!ELEMENT competence (#PCDATA)>
 <!ELEMENT formation (intitule, date, ecole, descriptif)>
@@ -25,4 +27,5 @@
 	<!ELEMENT datefin (#PCDATA)>
 	<!ELEMENT lieux (#PCDATA)>
 <!ELEMENT hobbie (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
 ]>
