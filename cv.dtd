@@ -1,4 +1,6 @@
 <!DOCTYPE CV [
+<!ELEMENT page (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
 <!ELEMENT identite (prenom, nom, naissance, site)>
 	<!ELEMENT prenom (#PCDATA)>
 	<!ELEMENT nom (#PCDATA)>
