@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 *{
 	box-sizing: border-box;
 }
@@ -7,22 +9,182 @@ page {
 }
 
 	section {
-	border: 3px solid red;
-	background-color: yellow;
 	height: 50%;
 	width: 100%;
 	display: block;
-	position: static;
 }
 
 article {
-	background-color: pink;
-	border: 2px solid red;
-	display: flex;
-	justify-content: center;
-	width: 33%;
+	background-color: #F8F8FF;
+	display: block;
+	float: left;
+	width: 33.33%;
 	height: 100%;
-	float: right;
-	position: relative;
-
 }
+
+/* CSS de identité */
+
+	identite {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #FF0055;
+		width: 100%;
+		height: 100%;
+	}
+
+	/*identite:hover {
+		animation-name: identite;
+		animation-iteration-count: infinite;
+		animation-duration: 3s;
+	}
+
+	@keyframes identite{
+   from {transform:rotate(0deg);} to {transform:rotate(360deg);}
+	} */
+
+		prenom {
+			width: 120px;
+			text-align: center;
+			font-size: 60px;
+			color: white;
+			background-color: #CCBC00;
+			transform: rotate(-3deg);
+		}
+
+		nom {
+			font-size: 60px;
+			text-align: center;
+			width: 230px;
+			background-color: white;
+			transform: rotate(2deg);
+		}
+
+		naissance {
+			font-size: 30px;
+			text-align: center;
+			width: 210px;
+			background-color: white;
+			transform: rotate(-2deg);
+		}
+
+		site {
+			padding-top: 5px;
+			font-size: 40px;
+			text-align: center;
+			height: 60px;
+			width: 250px;
+			color: white;
+			background-color: #CCBC00;
+			transform: rotate(0deg);
+		}
+
+/*CSS de formation */
+
+	formation {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #CCBC00;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+/*CSS de competence*/
+
+	competence {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #FF0055;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+/*CSS de competence*/
+
+	contact {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #CCBC00;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+		adresse {
+			width: 250px;
+			height: 90px;
+			padding-top: 10px;
+			text-align: center;
+			font-size: 30px;
+			color: white;
+			background-color: #FF0055;
+			transform: rotate(-2deg);
+		}
+
+		tel {
+			width: 230px;
+			height: 40px;
+			padding-top: 2px;
+			text-align: center;
+			font-size: 30px;
+			background-color:white;
+			transform: rotate(1deg);
+
+		}
+
+		mail {
+			width: 400px;
+			height: 40px;
+			padding-top: 2px;
+			text-align: center;
+			font-size: 30px;
+			color: white;
+			background-color:#FF0055;
+			transform: rotate(1deg);
+		}
+
+
+/*CSS de competence*/
+
+	experience {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #FF0055;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+/*CSS de formation */
+
+	custom {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #CCBC00;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}

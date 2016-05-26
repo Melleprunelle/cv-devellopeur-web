@@ -5,7 +5,12 @@
 <page>
 	<section>
 		<article>
-			<identite></identite>
+			<identite>
+				<prenom>Lise</prenom>
+				<nom>Poirier</nom>
+				<naissance>12/06/1991</naissance>
+				<site>lise-poirier.fr</site>
+			</identite>
 		</article>
 
 		<article>
@@ -19,7 +24,16 @@
 
 	<section>
 		<article>
-			<contact></contact>
+			<contact>
+				<adresse>
+					<numero>5</numero>
+					<rue>allée du Tage</rue>
+					<cp>35200</cp>
+					<ville>Rennes</ville>
+				</adresse>
+				<tel>06 52 84 43 53</tel>
+				<mail>lise.p.poirier@gmail.com</mail>
+			</contact>
 		</article>
 
 		<article>
