@@ -4,21 +4,30 @@
 
 <page>
 	<section>
-		<identite></identite>
+		<article>
+			<identite></identite>
+		</article>
+
+		<article>
+			<formation></formation>
+		</article>
+
+		<article>
+			<competence></competence>
+		</article>
 	</section>
+
 	<section>
-		<formation></formation>
-	</section>
-	<section>
-		<competence></competence>
-	</section>
-	<section>
-		<contact></contact>
-	</section>
-	<section>
-		<experience></experience>
-	</section>
-	<section>
-		<custom></custom>
-	</section>
+		<article>
+			<contact></contact>
+		</article>
+
+		<article>
+			<experience></experience>
+		</article>
+
+		<article>
+			<custom></custom>
+		</article>
+	</section>		
 </page>
