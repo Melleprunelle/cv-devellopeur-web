@@ -35,15 +35,10 @@ article {
 		height: 100%;
 	}
 
-	/*identite:hover {
-		animation-name: identite;
-		animation-iteration-count: infinite;
-		animation-duration: 3s;
+	identite:hover {
+		background-color: black;
+		opacity: 0.8;
 	}
-
-	@keyframes identite{
-   from {transform:rotate(0deg);} to {transform:rotate(360deg);}
-	} */
 
 		prenom {
 			width: 120px;
@@ -95,6 +90,11 @@ article {
 		margin-right: auto;
 	}
 
+	formation:hover {
+		background-color: black;
+		opacity: 0.8;
+	}
+
 
 /*CSS de competence*/
 
@@ -108,6 +108,11 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	competence:hover {
+		background-color: black;
+		opacity: 0.8;
 	}
 
 
@@ -124,6 +129,11 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	contact:hover {
+		background-color: black;
+		opacity: 0.8;
 	}
 
 		adresse {
@@ -174,6 +184,11 @@ article {
 		margin-right: auto;
 	}
 
+	experience:hover {
+		background-color: black;
+		opacity: 0.8;
+	}
+
 
 /*CSS de formation */
 
@@ -187,4 +202,9 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	custom:hover {
+		background-color: black;
+		opacity: 0.8;
 	}
