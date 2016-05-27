@@ -14,22 +14,42 @@
 		</article>
 
 		<article>
-			<formation></formation>
+			<formation>
+				<intitule>Lp de Conception Graphique</intitule>
+				<date>2015</date>
+				<ecole>Rennes 2</ecole>
+			</formation>
 		</article>
 
 		<article>
-			<competence></competence>
+			<experience>
+				<intitule>Graphiste</intitule>
+				<datedebut>De début Avril</datedebut>
+				<datefin>à fin Avril</datefin>
+				<lieux>POINT-CARDINAL - RENNES</lieux>
+				<descriptif>Exécution et création en com'graphique. Réalisation d'une gamme de com' pour Gourmet Catolard. (dans l'idée je voudrais un caroussel pour les expériences, avec une slide par exp', mais c'est du bootstrat, du coup pour cette semaine c'était pas le propos ^^)</descriptif>
+			</experience>
+		</article>
+
+		<article>
+			<competence>
+				<random>> Communication interne + externe !</random>
+				<random>> Création de supports print !</random>
+				<random>> Gestion de projet + organisation !</random>
+				<random>> Bonne créativité + exécution !</random>
+				<random>> Html + Css en cours !</random>
+			</competence>
 		</article>
 	</section>
 
 	<section>
 		<article>
-			<experience></experience>
-		</article>
-
-		<article>
 			<custom> 
-				<autre>PERMIS B EN COURS</autre>
+				<autre>Illustrator > 90%</autre>
+				<autre>Photoshop > 85%</autre>
+				<autre>Indesign > 75%</autre>
+				<autre>Wordpress > 10%</autre>
+				<autre>Gimp > 10%</autre>
 			</custom>
 		</article>
 
