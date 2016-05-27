@@ -2,14 +2,14 @@
 	<!DOCTYPE CV SYSTEM "cv.dtd">
 	<?xml-stylesheet href="style.css" type="text/css" ?>
 
-<page>
+<page xmlns:html="http://www.w3.org/1999/xhtml">
 	<section>
 		<article>
 			<identite>
 				<prenom>Lise</prenom>
 				<nom>Poirier</nom>
 				<naissance>12/06/1991</naissance>
-				<site>lise-poirier.fr</site>
+				<site><html:a href="https://lise-poirier.fr/">lise-poirier.fr</html:a></site>
 			</identite>
 		</article>
 
@@ -92,11 +92,15 @@ sous Indesign et Illustrator.</descriptif>
 
 		<article>
 			<competence>
-				<random>> Communication interne + externe !</random>
-				<random>> Création de supports print !</random>
-				<random>> Gestion de projet + organisation !</random>
-				<random>> Bonne créativité + exécution !</random>
-				<random>> Html + Css en cours !</random>
+				<random>> Communication interne + externe</random>
+				<random>> Création de supports print</random>
+				<random>> Gestion de projet + organisation</random>
+				<random>> Bonne créativité + exécution</random>
+				<random>> Wordpress</random>
+				<random>> Culture Art graphique</random>
+				<random>> Packaging</random>
+				<random>> Dynamisme</random>
+				<random>> Ponctuelle</random>
 			</competence>
 		</article>
 	</section>
@@ -113,6 +117,10 @@ sous Indesign et Illustrator.</descriptif>
 				<autre>Java Script > 0%</autre>
 				<autre>PHP > 0%</autre>
 				<autre>Pouet > 0%</autre>
+				<autre>Pouet > 0%</autre>
+				<autre>Pouet > 0%</autre>
+				<autre>Pouet > 0%</autre>
+								<autre>Pouet > 0%</autre>
 				<autre>Pouet > 0%</autre>
 				<autre>Pouet > 0%</autre>
 				<autre>Pouet > 0%</autre>

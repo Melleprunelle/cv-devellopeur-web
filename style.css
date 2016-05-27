@@ -74,6 +74,11 @@ article {
 			transform: rotate(0deg);
 		}
 
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
 /*CSS de formation */
 
 	formation {
@@ -89,7 +94,6 @@ article {
 		margin-left: auto;
 		margin-right: auto;
 		border: 5px solid #FF4500;
-		overflow-y: scroll;
 	}
 
 	formation:hover {
@@ -104,7 +108,7 @@ article {
 		color: white;
 		height: 30px;
 		width: 330px;
-		margin-top: 40px;
+		margin-top: 15px;
 		transform: rotate(0deg);
 		border-bottom: 1px solid white;
 	}
@@ -151,13 +155,15 @@ article {
 
 		random {
 			width: 400px;
-			height: 45px;
-			margin-top: 8PX;
+			height: 50px;
+			margin-top: 15PX;
 			padding-top: 10px;
+			padding-bottom: 10px;
 			text-align: center;
 			font-size: 22px;
-			color: white;
-			background-color: #FF4500;
+			color: black;
+			background-color: #CCBC00;
+			transform: rotate(-0.5deg);
 		}
 
 
@@ -184,9 +190,8 @@ article {
 
 		autre {
 			width: 300px;
-			height: 50px;
 			margin-top: 20px;
-			padding-top: 10px;
+
 			text-align: center;
 			font-size: 23px;
 			color: white;
@@ -255,9 +260,7 @@ article {
 
 		descriptif {
 			width: 350px;
-			height: 100px;
-			padding-top: 15px;
-			padding-bottom: 15px;
+			margin-top: 5px;
 			text-align: center;
 			font-size: 16px;
 			background-color: white;
@@ -303,7 +306,7 @@ article {
 			padding-top: 2px;
 			text-align: center;
 			font-size: 30px;
-			background-color:white;
+			background-color: #97DFC6;
 			transform: rotate(1deg);
 
 		}
@@ -322,17 +325,18 @@ article {
 
 /* Css des scrolls bar */
 
-	::-webkit-scrollbar {
-	   width: 12px;
-	}
-	::-webkit-scrollbar-track {
-	   background-color: #eaeaea
-	;
-	   border-left: 1px solid #ccc;
-	}
-	::-webkit-scrollbar-thumb {
-	   background-color: #ccc;
-	}
-	::-webkit-scrollbar-thumb:hover {
-	   background-color: #aaa;
-	}
+::-webkit-scrollbar {
+   width: 5px;
+}
+::-webkit-scrollbar-track {
+   background-color: #c6c6c6
+;
+}
+::-webkit-scrollbar-thumb {
+   background-color: #6bbeaa
+;
+}
+::-webkit-scrollbar-thumb:hover {
+   background-color: #54a292
+;
+}
