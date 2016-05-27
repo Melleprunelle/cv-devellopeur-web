@@ -118,6 +118,46 @@ article {
 
 /*CSS de competence*/
 
+	experience {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #CCBC00;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	experience:hover {
+		background-color: black;
+		opacity: 0.8;
+	}
+
+
+/*CSS de formation */
+
+	custom {
+		font-family: "Roboto";
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #FF0055;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	custom:hover {
+		background-color: black;
+		opacity: 0.8;
+	}
+
+
+/*CSS contact */
+
 	contact {
 		font-family: "Roboto";
 		display: flex;
@@ -168,43 +208,3 @@ article {
 			background-color:#FF0055;
 			transform: rotate(1deg);
 		}
-
-
-/*CSS de competence*/
-
-	experience {
-		font-family: "Roboto";
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-color: #FF0055;
-		width: 100%;
-		height: 100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	experience:hover {
-		background-color: black;
-		opacity: 0.8;
-	}
-
-
-/*CSS de formation */
-
-	custom {
-		font-family: "Roboto";
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-color: #CCBC00;
-		width: 100%;
-		height: 100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	custom:hover {
-		background-color: black;
-		opacity: 0.8;
-	}

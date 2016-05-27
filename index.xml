@@ -24,6 +24,16 @@
 
 	<section>
 		<article>
+			<experience></experience>
+		</article>
+
+		<article>
+			<custom> 
+				<autre>PERMIS B EN COURS</autre>
+			</custom>
+		</article>
+
+		<article>
 			<contact>
 				<adresse>
 					<numero>5</numero>
@@ -34,14 +44,6 @@
 				<tel>06 52 84 43 53</tel>
 				<mail>lise.p.poirier@gmail.com</mail>
 			</contact>
-		</article>
-
-		<article>
-			<experience></experience>
-		</article>
-
-		<article>
-			<custom></custom>
 		</article>
 	</section>		
 </page>

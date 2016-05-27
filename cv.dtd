@@ -1,7 +1,7 @@
 <!DOCTYPE CV [
 <!ELEMENT page (section* article*)>
 <!ELEMENT section (article*)>
-<!ELEMENT article (identite?, contact?, custom?, competence?, formation?, experience?, hobbie?)>
+<!ELEMENT article (identite?, contact?, custom?, competence?, formation?, experience?, hobbie?, titre*)>
 <!ELEMENT titre (#PCDATA)>
 <!ELEMENT identite (prenom, nom, naissance, site?)>
 	<!ELEMENT prenom (#PCDATA)>
@@ -17,8 +17,10 @@
 		<!ELEMENT pays (#PCDATA)>
 	<!ELEMENT tel (#PCDATA)>
 	<!ELEMENT mail (#PCDATA)>
-<!ELEMENT custom (#PCDATA)>
-<!ELEMENT competence (#PCDATA)>
+<!ELEMENT custom (autre*)>
+	<!ELEMENT autre (#PCDATA)>
+<!ELEMENT competence (random*)>
+	<!ELEMENT random (#PCDATA)>
 <!ELEMENT formation (intitule, date, ecole, descriptif)>
 	<!ELEMENT intitule (#PCDATA)>
 	<!ELEMENT date (#PCDATA)>
