@@ -32,4 +32,6 @@
 	<!ELEMENT lieux (#PCDATA)>
 <!ELEMENT hobbie (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
+<!ELEMENT **** EMPTY>
+	<!ATTTLIST photo source CDATA #REQUIRED>
 ]>

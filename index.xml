@@ -15,18 +15,23 @@
 
 		<article>
 			<formation>
+				<intitule>DIPLOMES !</intitule>
 				<intitule>> formation qualifiante developpeur</intitule>
 				<date>2016</date>
 				<ecole>Simplon</ecole>
+
 				<intitule>> Lp de Conception Graphique</intitule>
 				<date>2015</date>
 				<ecole>Rennes 2</ecole>
+
 				<intitule>> Licence d'Arts Plastiques</intitule>
 				<date>2014</date>
 				<ecole>Rennes 2</ecole>
+
 				<intitule>> Bac Pro en Com'graphique</intitule>
 				<date>2010</date>
 				<ecole>St-Pierre-la-Joliverie</ecole>
+
 				<intitule>> Cap d'éxé en Com'graphique</intitule>
 				<date>2008</date>
 				<ecole>St-Pierre-la-Joliverie</ecole>
@@ -39,7 +44,49 @@
 				<datedebut>De début Avril</datedebut>
 				<datefin>à fin Avril</datefin>
 				<lieux>POINT-CARDINAL - RENNES</lieux>
-				<descriptif>Exécution et création en com'graphique. Réalisation d'une gamme de com' pour Gourmet Catolard. (dans l'idée je voudrais un caroussel pour les expériences, avec une slide par exp', mais c'est du bootstrat, du coup pour cette semaine c'était pas le propos ^^)</descriptif>
+				<descriptif>Exécution et création en com'graphique. 
+Réalisation d'une gamme de com' 
+pour Gourmet Catolard.</descriptif>
+
+				<intitule>Graphiste Stagiaire</intitule>
+				<datedebut>Septembre 2015</datedebut>
+				<datefin>à décembre 2015</datefin>
+				<lieux>HÉMISPHÈRE 4 - RENNES</lieux>
+				<descriptif>Exécution et création en com'graphique. 
+Réalisation de signalétique
+et logotypes pour des pharmacies.</descriptif>
+
+				<intitule>Graphiste Stagiaire</intitule>
+				<datedebut>Février 2015</datedebut>
+				<datefin>à Décembre 2015</datefin>
+				<lieux>IMAGIC - RENNES</lieux>
+				<descriptif>Création de mise-en-page,
+d'affiches et de logotypes
+sous Indesign et Illustrator.</descriptif>
+
+				<intitule>Graphiste</intitule>
+				<datedebut>Pouet</datedebut>
+				<datefin>à Pouet</datefin>
+				<lieux>POUET - RENNES</lieux>
+				<descriptif>Création de mise-en-page,
+d'affiches et de logotypes
+sous Indesign et Illustrator.</descriptif>
+
+				<intitule>Graphiste</intitule>
+				<datedebut>Pouet</datedebut>
+				<datefin>à Pouet</datefin>
+				<lieux>POUET - RENNES</lieux>
+				<descriptif>Création de mise-en-page,
+d'affiches et de logotypes
+sous Indesign et Illustrator.</descriptif>
+
+				<intitule>Graphiste</intitule>
+				<datedebut>Pouet</datedebut>
+				<datefin>à Pouet</datefin>
+				<lieux>POUET - RENNES</lieux>
+				<descriptif>Création de mise-en-page,
+d'affiches et de logotypes
+sous Indesign et Illustrator.</descriptif>
 			</experience>
 		</article>
 
@@ -62,6 +109,13 @@
 				<autre>Indesign > 75%</autre>
 				<autre>Wordpress > 10%</autre>
 				<autre>Gimp > 10%</autre>
+				<autre>HTML + CSS > 50%</autre>
+				<autre>Java Script > 0%</autre>
+				<autre>PHP > 0%</autre>
+				<autre>Pouet > 0%</autre>
+				<autre>Pouet > 0%</autre>
+				<autre>Pouet > 0%</autre>
+				<autre>Pouet > 0%</autre>
 			</custom>
 		</article>
 

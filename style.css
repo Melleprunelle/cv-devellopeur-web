@@ -10,12 +10,14 @@ page {
 
 
 article {
-	background-color: #F8F8FF;
+	background-color: #CCBC00;
 	display: block;
 	float: left;
 	width: 33.33%;
 	height: 100%;
 }
+
+
 
 /* CSS de identité */
 
@@ -25,13 +27,14 @@ article {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: white;
+		background-color: #97DFC6;
 		width: 100%;
 		height: 100%;
+		border:5px solid #FF4500;
 	}
 
 	identite:hover {
-		background-color: #97DFC6;
+		background-color: #811453;
 	}
 
 		prenom {
@@ -40,7 +43,7 @@ article {
 			font-size: 60px;
 			color: white;
 			background-color: #CCBC00;
-			transform: rotate(-3deg);
+			transform: rotate(0deg);
 		}
 
 		nom {
@@ -48,7 +51,7 @@ article {
 			text-align: center;
 			width: 230px;
 			color: white;
-			background-color: #FF0055;
+			background-color: #FF4500;
 			transform: rotate(2deg);
 		}
 
@@ -67,7 +70,7 @@ article {
 			height: 60px;
 			width: 250px;
 			color: white;
-			background-color: #FF0055;
+			background-color: #FF4500;
 			transform: rotate(0deg);
 		}
 
@@ -85,41 +88,43 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		border: 5px solid #FF4500;
+		overflow-y: scroll;
 	}
 
 	formation:hover {
-		background-color: black;
-		opacity: 0.8;
+		background-color: #811453;
 	}
 
 	formation > intitule {
 		color:black;
-		font-size: 25px;
+		font-size: 20px;
 		transform: rotate(0deg);
-		background-color: white;
-		height: 40px;
-		width: 400px;
-		padding-top: 5px;
-		margin-top: 15px;
-		transform: rotate(0.5deg);
+		background-color: #2D241E;
+		color: white;
+		height: 30px;
+		width: 330px;
+		margin-top: 40px;
+		transform: rotate(0deg);
+		border-bottom: 1px solid white;
 	}
 
 	date {
-		font-size: 18px;
+		font-size: 16px;
 		width: 250px;
-		height: 25px;
-		background-color: #FF0055;
+		height: 20px;
+		background-color: #FF4500;
 		color: white;
 		padding-top: 1px;
+		margin-top: 8px;
 	}
 
 	ecole {
 		font-size: 20px;
 		width: 200px;
 		height: 30px;
-		margin-top: 2px;
+		margin-top: 3px;
 		background-color: #CCBC00;
-		transform: rotate(-0.5deg);
 		color: black;
 	}
 
@@ -137,11 +142,11 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		border:5px solid #FF4500;
 	}
 
 	competence:hover {
-		background-color: black;
-		opacity: 0.8;
+		background-color: #811453;
 	}
 
 		random {
@@ -152,7 +157,7 @@ article {
 			text-align: center;
 			font-size: 22px;
 			color: white;
-			background-color: #FF0055;
+			background-color: #FF4500;
 		}
 
 
@@ -164,25 +169,29 @@ article {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: white;
+		background-color: #97DFC6;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		border:5px solid #FF4500;
+		overflow-y: scroll;
 	}
 
 	custom:hover {
-		background-color: #97DFC6;
+		background-color: #811453;
 	}
 
 		autre {
-			width: 400px;
-			height: 45px;
-			margin-top: 8px;
+			width: 300px;
+			height: 50px;
+			margin-top: 20px;
 			padding-top: 10px;
 			text-align: center;
-			font-size: 22px;
-			background-color: #CCBC00;
+			font-size: 23px;
+			color: white;
+			background-color: #FF4500;
+			transform: rotate(0.5deg);
 		}
 
 /*CSS de experience*/
@@ -192,65 +201,68 @@ article {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		background-color: white;
+		background-color: #97DFC6;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		border: 5px solid #FF4500;
+		overflow-y: scroll;
 	}
 
 	experience:hover {
-		background-color: #97DFC6;
+		background-color: #811453;
 	}
 
 		intitule {
 			width: 250px;
-			height: 50px;
-			padding-top: 1px;
+			height: 35px;
+			margin-top: 50px;
 			text-align: center;
-			font-size: 40px;
+			font-size: 30px;
 			color: white;
 			background-color: #CCBC00;
-			transform: rotate(-2deg);
 		}
 
 		datedebut {
-			font-size: 20px;
+			font-size: 15px;
+			height: 18px;
 			text-align: center;
 			width: 230px;
-			background-color: #FF0055;
+			background-color: #FF4500;
 			color: white;
-			transform: rotate(1deg);
+			transform: rotate(0.5deg);
 		}
 		
 		datefin {
-			font-size: 20px;
+			font-size: 15px;
+			height: 18px;
 			text-align: center;
 			width: 230px;
-			background-color: #FF0055;
+			background-color: #FF4500;
 			color: white;
-			transform: rotate(-1deg);
+			transform: rotate(0.5deg);
 		}
 		
 		lieux {
 			width: 300px;
-			height: 25px;
+			height: 24px;
 			padding-top: 1px;
 			text-align: center;
-			font-size: 20px;
+			font-size: 18px;
 			background-color: #CCBC00;
-			transform: rotate(1deg);
 		}
 
 		descriptif {
 			width: 350px;
-			height: 130px;
-			padding-top: 7px;
-			margin-top: 5px;
+			height: 100px;
+			padding-top: 15px;
+			padding-bottom: 15px;
 			text-align: center;
 			font-size: 16px;
 			background-color: white;
+			transform: rotate(-0.5deg);
+			white-space: pre;
 		}
 
 
@@ -267,11 +279,11 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		border:5px solid #FF4500;
 	}
 
 	contact:hover {
-		background-color: black;
-		opacity: 0.8;
+		background-color: #811453;
 	}
 
 		adresse {
@@ -281,7 +293,7 @@ article {
 			text-align: center;
 			font-size: 30px;
 			color: white;
-			background-color: #FF0055;
+			background-color: #FF4500;
 			transform: rotate(-2deg);
 		}
 
@@ -303,6 +315,24 @@ article {
 			text-align: center;
 			font-size: 30px;
 			color: white;
-			background-color:#FF0055;
+			background-color:#FF4500;
 			transform: rotate(1deg);
 		}
+
+
+/* Css des scrolls bar */
+
+	::-webkit-scrollbar {
+	   width: 12px;
+	}
+	::-webkit-scrollbar-track {
+	   background-color: #eaeaea
+	;
+	   border-left: 1px solid #ccc;
+	}
+	::-webkit-scrollbar-thumb {
+	   background-color: #ccc;
+	}
+	::-webkit-scrollbar-thumb:hover {
+	   background-color: #aaa;
+	}
