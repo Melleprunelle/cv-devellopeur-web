@@ -30,14 +30,13 @@ article {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: #FF0055;
+		background-color: white;
 		width: 100%;
 		height: 100%;
 	}
 
 	identite:hover {
-		background-color: black;
-		opacity: 0.8;
+		background-color: #97DFC6;
 	}
 
 		prenom {
@@ -53,7 +52,8 @@ article {
 			font-size: 60px;
 			text-align: center;
 			width: 230px;
-			background-color: white;
+			color: white;
+			background-color: #FF0055;
 			transform: rotate(2deg);
 		}
 
@@ -61,7 +61,7 @@ article {
 			font-size: 30px;
 			text-align: center;
 			width: 210px;
-			background-color: white;
+			background-color: #CCBC00;
 			transform: rotate(-2deg);
 		}
 
@@ -72,7 +72,7 @@ article {
 			height: 60px;
 			width: 250px;
 			color: white;
-			background-color: #CCBC00;
+			background-color: #FF0055;
 			transform: rotate(0deg);
 		}
 
@@ -83,7 +83,9 @@ article {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: #CCBC00;
+		justify-content: center;
+		background-color: #2D241E;
+		text-align: center;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
@@ -95,6 +97,33 @@ article {
 		opacity: 0.8;
 	}
 
+	formation > intitule {
+		color:black;
+		font-size: 18px;
+		transform: rotate(0deg);
+		background-color: white;
+		height: 25px;
+		width: 300px;
+		padding-top: 1px;
+		margin-top: 8px;
+		transform: rotate(0.5deg);
+	}
+
+	date {
+		font-size: 14px;
+		width: 200px;
+		background-color: #FF0055;
+		color: white;
+		padding-top: 2px;
+	}
+
+	ecole {
+		font-size: 16px;
+		width: 150px;
+		background-color: white;
+		transform: rotate(-0.5deg);
+	}
+
 
 /*CSS de competence*/
 
@@ -104,7 +133,7 @@ article {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: #CCBC00;
+		background-color: #2D241E;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
@@ -136,7 +165,7 @@ article {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: #FF0055;
+		background-color: white;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
@@ -144,8 +173,7 @@ article {
 	}
 
 	custom:hover {
-		background-color: black;
-		opacity: 0.8;
+		background-color: #97DFC6;
 	}
 
 		autre {
@@ -155,7 +183,7 @@ article {
 			padding-top: 10px;
 			text-align: center;
 			font-size: 22px;
-			background-color: white;
+			background-color: #CCBC00;
 		}
 
 /*CSS de experience*/
@@ -166,7 +194,7 @@ article {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: #FF0055;
+		background-color: white;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
@@ -174,8 +202,7 @@ article {
 	}
 
 	experience:hover {
-		background-color: black;
-		opacity: 0.8;
+		background-color: #97DFC6;
 	}
 
 		intitule {
@@ -193,7 +220,8 @@ article {
 			font-size: 20px;
 			text-align: center;
 			width: 230px;
-			background-color: white;
+			background-color: #FF0055;
+			color: white;
 			transform: rotate(1deg);
 		}
 		
@@ -201,7 +229,8 @@ article {
 			font-size: 20px;
 			text-align: center;
 			width: 230px;
-			background-color: white;
+			background-color: #FF0055;
+			color: white;
 			transform: rotate(-1deg);
 		}
 		
@@ -234,7 +263,7 @@ article {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: #CCBC00;
+		background-color: #2D241E;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
