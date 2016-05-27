@@ -8,11 +8,6 @@ page {
 	width: 100%;
 }
 
-	section {
-	height: 50%;
-	width: 100%;
-	display: block;
-}
 
 article {
 	background-color: #F8F8FF;
@@ -99,29 +94,33 @@ article {
 
 	formation > intitule {
 		color:black;
-		font-size: 18px;
+		font-size: 25px;
 		transform: rotate(0deg);
 		background-color: white;
-		height: 25px;
-		width: 300px;
-		padding-top: 1px;
-		margin-top: 8px;
+		height: 40px;
+		width: 400px;
+		padding-top: 5px;
+		margin-top: 15px;
 		transform: rotate(0.5deg);
 	}
 
 	date {
-		font-size: 14px;
-		width: 200px;
+		font-size: 18px;
+		width: 250px;
+		height: 25px;
 		background-color: #FF0055;
 		color: white;
-		padding-top: 2px;
+		padding-top: 1px;
 	}
 
 	ecole {
-		font-size: 16px;
-		width: 150px;
-		background-color: white;
+		font-size: 20px;
+		width: 200px;
+		height: 30px;
+		margin-top: 2px;
+		background-color: #CCBC00;
 		transform: rotate(-0.5deg);
+		color: black;
 	}
 
 

@@ -26,7 +26,7 @@
 	<!ELEMENT date (#PCDATA)>
 	<!ELEMENT ecole (#PCDATA)>
 	<!ELEMENT descriptif (#PCDATA)>
-<!ELEMENT experience (intitule, datedebut, datefin, lieux, descriptif)>
+<!ELEMENT experience (intitule*, datedebut*, datefin*, lieux*, descriptif*)>
 	<!ELEMENT datedebut (#PCDATA)>
 	<!ELEMENT datefin (#PCDATA)>
 	<!ELEMENT lieux (#PCDATA)>
