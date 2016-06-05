@@ -30,11 +30,12 @@ article {
 		background-color: #97DFC6;
 		width: 100%;
 		height: 100%;
-		border:5px solid #FF4500;
+		border:3px solid #F4661B;
 	}
 
 	identite:hover {
 		background-color: #811453;
+		transition-duration: 3s;
 	}
 
 		prenom {
@@ -42,7 +43,7 @@ article {
 			text-align: center;
 			font-size: 60px;
 			color: white;
-			background-color: #CCBC00;
+			background-color: #F4661B;
 			transform: rotate(0deg);
 		}
 
@@ -51,16 +52,17 @@ article {
 			text-align: center;
 			width: 230px;
 			color: white;
-			background-color: #FF4500;
-			transform: rotate(2deg);
+			background-color: #008080;
+			transform: rotate(1deg);
 		}
 
 		naissance {
 			font-size: 30px;
 			text-align: center;
 			width: 210px;
-			background-color: #CCBC00;
-			transform: rotate(-2deg);
+			background-color: #F4661B;
+			transform: rotate(-1deg);
+			color: white;
 		}
 
 		site {
@@ -70,7 +72,7 @@ article {
 			height: 60px;
 			width: 250px;
 			color: white;
-			background-color: #FF4500;
+			background-color: #008080;
 			transform: rotate(0deg);
 		}
 
@@ -87,49 +89,48 @@ article {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: #2D241E;
+		background-color: #AFEEEE;
 		text-align: center;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		border: 5px solid #FF4500;
+		border: 3px solid #F4661B;
 	}
 
 	formation:hover {
 		background-color: #811453;
+		transition-duration: 3s;
 	}
 
 	formation > intitule {
-		color:black;
-		font-size: 20px;
+		color:white;
+		padding-top: 6px;
+		font-size: 18px;
 		transform: rotate(0deg);
-		background-color: #2D241E;
-		color: white;
-		height: 30px;
-		width: 330px;
-		margin-top: 15px;
-		transform: rotate(0deg);
-		border-bottom: 1px solid white;
+		background-color: #008080;
+		height: 35px;
+		width: 360px;
+		margin-top: 20px;
 	}
 
 	date {
 		font-size: 16px;
-		width: 250px;
-		height: 20px;
-		background-color: #FF4500;
+		padding-top: 2px;
+		width: 150px;
+		height: 22px;
+		background-color: #F4661B;
 		color: white;
-		padding-top: 1px;
-		margin-top: 8px;
+		transform: rotate(0.5deg);
 	}
 
 	ecole {
-		font-size: 20px;
-		width: 200px;
-		height: 30px;
-		margin-top: 3px;
-		background-color: #CCBC00;
-		color: black;
+		font-size: 18px;
+		width: 210px;
+		height: 25px;
+		background-color: #008080;
+		color: white;
+		padding-top: 2px;
 	}
 
 
@@ -141,29 +142,29 @@ article {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: #2D241E;
+		background-color: #AFEEEE;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		border:5px solid #FF4500;
+		border:3px solid #F4661B;
 	}
 
 	competence:hover {
 		background-color: #811453;
+		transition-duration: 3s;
 	}
 
 		random {
 			width: 400px;
-			height: 50px;
+			height: 35px;
 			margin-top: 15PX;
-			padding-top: 10px;
+			padding-top: 6px;
 			padding-bottom: 10px;
 			text-align: center;
-			font-size: 22px;
-			color: black;
-			background-color: #CCBC00;
-			transform: rotate(-0.5deg);
+			font-size: 18px;
+			color: white;
+			background-color: #008080;
 		}
 
 
@@ -180,23 +181,22 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		border:5px solid #FF4500;
+		border:3px solid #F4661B;
 		overflow-y: scroll;
 	}
 
 	custom:hover {
 		background-color: #811453;
+		transition-duration: 2s;
 	}
 
 		autre {
 			width: 300px;
-			margin-top: 20px;
-
+			margin-top: 15px;
 			text-align: center;
-			font-size: 23px;
+			font-size: 18px;
 			color: white;
-			background-color: #FF4500;
-			transform: rotate(0.5deg);
+			background-color: #008080;
 		}
 
 /*CSS de experience*/
@@ -211,61 +211,60 @@ article {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		border: 5px solid #FF4500;
+		border: 3px solid #F4661B;
 		overflow-y: scroll;
 	}
 
 	experience:hover {
 		background-color: #811453;
+		transition-duration: 2s;
 	}
 
 		intitule {
 			width: 250px;
-			height: 35px;
 			margin-top: 50px;
 			text-align: center;
-			font-size: 30px;
+			font-size: 25px;
 			color: white;
-			background-color: #CCBC00;
+			background-color: #008080;
 		}
 
 		datedebut {
 			font-size: 15px;
-			height: 18px;
 			text-align: center;
 			width: 230px;
-			background-color: #FF4500;
+			background-color: #F4661B;
 			color: white;
 			transform: rotate(0.5deg);
 		}
 		
 		datefin {
 			font-size: 15px;
-			height: 18px;
 			text-align: center;
 			width: 230px;
-			background-color: #FF4500;
+			background-color: #F4661B;
 			color: white;
 			transform: rotate(0.5deg);
+			margin-top: 1px;
 		}
 		
 		lieux {
-			width: 300px;
-			height: 24px;
+			width: 320px;
+			color: white;
 			padding-top: 1px;
 			text-align: center;
-			font-size: 18px;
-			background-color: #CCBC00;
+			font-size: 16px;
+			background-color: #008080;
 		}
 
 		descriptif {
 			width: 350px;
-			margin-top: 5px;
+			margin-top: 3px;
 			text-align: center;
 			font-size: 16px;
 			background-color: white;
-			transform: rotate(-0.5deg);
 			white-space: pre;
+			color: #008080;
 		}
 
 
@@ -277,16 +276,17 @@ article {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: #2D241E;
+		background-color: #AFEEEE;
 		width: 100%;
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		border:5px solid #FF4500;
+		border:3px solid #F4661B;
 	}
 
 	contact:hover {
 		background-color: #811453;
+		transition-duration: 3s;
 	}
 
 		adresse {
@@ -296,8 +296,8 @@ article {
 			text-align: center;
 			font-size: 30px;
 			color: white;
-			background-color: #FF4500;
-			transform: rotate(-2deg);
+			background-color: #F4661B;
+			transform: rotate(-1deg);
 		}
 
 		tel {
@@ -306,8 +306,9 @@ article {
 			padding-top: 2px;
 			text-align: center;
 			font-size: 30px;
-			background-color: #97DFC6;
+			background-color: #008080;
 			transform: rotate(1deg);
+			color: white;
 
 		}
 
@@ -318,7 +319,7 @@ article {
 			text-align: center;
 			font-size: 30px;
 			color: white;
-			background-color:#FF4500;
+			background-color:#F4661B;
 			transform: rotate(1deg);
 		}
 

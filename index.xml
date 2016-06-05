@@ -15,24 +15,23 @@
 
 		<article>
 			<formation>
-				<intitule>DIPLOMES !</intitule>
-				<intitule>> formation qualifiante developpeur</intitule>
-				<date>2016</date>
-				<ecole>Simplon</ecole>
+				<intitule>Formation Qualifiante Développeuse</intitule>
+				<date>2017</date>
+				<ecole>FACE RENNES</ecole>
 
-				<intitule>> Lp de Conception Graphique</intitule>
+				<intitule>Licence pro de Conception Graphique</intitule>
 				<date>2015</date>
-				<ecole>Rennes 2</ecole>
+				<ecole>Université Rennes 2</ecole>
 
-				<intitule>> Licence d'Arts Plastiques</intitule>
+				<intitule>Licence d'Arts Plastiques</intitule>
 				<date>2014</date>
-				<ecole>Rennes 2</ecole>
+				<ecole>Université Rennes 2</ecole>
 
-				<intitule>> Bac Pro en Com'graphique</intitule>
+				<intitule>Bac Pro AMA Communication Graphique</intitule>
 				<date>2010</date>
 				<ecole>St-Pierre-la-Joliverie</ecole>
 
-				<intitule>> Cap d'éxé en Com'graphique</intitule>
+				<intitule>CAP d'éxécution Communication Graphique</intitule>
 				<date>2008</date>
 				<ecole>St-Pierre-la-Joliverie</ecole>
 			</formation>
@@ -40,67 +39,109 @@
 
 		<article>
 			<experience>
-				<intitule>Graphiste</intitule>
-				<datedebut>De début Avril</datedebut>
-				<datefin>à fin Avril</datefin>
-				<lieux>POINT-CARDINAL - RENNES</lieux>
-				<descriptif>Exécution et création en com'graphique. 
-Réalisation d'une gamme de com' 
-pour Gourmet Catolard.</descriptif>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Avril 2016</datedebut>
+				<datefin>Avril 2016</datefin>
+				<lieux>POINT-CARDINAL / RENNES</lieux>
+				<descriptif>Création de communication print
+pour Gourmet Catolard,
+(flyer, plv, recettes, kakémono etc).
+Réalisation de modifications
+et d'éxécutions minutieuses. 
+</descriptif>
 
-				<intitule>Graphiste Stagiaire</intitule>
+				<intitule>Graphiste Print</intitule>
 				<datedebut>Septembre 2015</datedebut>
-				<datefin>à décembre 2015</datefin>
-				<lieux>HÉMISPHÈRE 4 - RENNES</lieux>
-				<descriptif>Exécution et création en com'graphique. 
-Réalisation de signalétique
-et logotypes pour des pharmacies.</descriptif>
-
-				<intitule>Graphiste Stagiaire</intitule>
-				<datedebut>Février 2015</datedebut>
 				<datefin>à Décembre 2015</datefin>
-				<lieux>IMAGIC - RENNES</lieux>
-				<descriptif>Création de mise-en-page,
-d'affiches et de logotypes
-sous Indesign et Illustrator.</descriptif>
+				<lieux>HÉMISPHÈRE 4 / RENNES</lieux>
+				<descriptif>Création de logotypes
+et de signalétiques pour
+des pharmacies du Grand Ouest.
+Nouvelles approches
+graphiques de communication
+pour un secteur en manque.
+</descriptif>
 
-				<intitule>Graphiste</intitule>
-				<datedebut>Pouet</datedebut>
-				<datefin>à Pouet</datefin>
-				<lieux>POUET - RENNES</lieux>
-				<descriptif>Création de mise-en-page,
-d'affiches et de logotypes
-sous Indesign et Illustrator.</descriptif>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Juillet 2015</datedebut>
+				<datefin>à Aout 2015</datefin>
+				<lieux>POINT CARDINAL / RENNES</lieux>
+				<descriptif>Création de communication graphique,
+notamment dans le packaging,
+mais également de logotypes,
+d'un kakémono et de livret 16 pages.
+Réalisation d'éxécution pour Gourmet Catolard.
+</descriptif>
 
-				<intitule>Graphiste</intitule>
-				<datedebut>Pouet</datedebut>
-				<datefin>à Pouet</datefin>
-				<lieux>POUET - RENNES</lieux>
-				<descriptif>Création de mise-en-page,
-d'affiches et de logotypes
-sous Indesign et Illustrator.</descriptif>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Février 2015</datedebut>
+				<datefin>à Mars 2015</datefin>
+				<lieux>IMAGIC / RENNES</lieux>
+				<descriptif>Création de communication graphique,
+notamment des affiches,
+une chemise, des logotypes.
+Réalisation de travail d'éxécution graphique.
+</descriptif>
 
-				<intitule>Graphiste</intitule>
-				<datedebut>Pouet</datedebut>
-				<datefin>à Pouet</datefin>
-				<lieux>POUET - RENNES</lieux>
-				<descriptif>Création de mise-en-page,
-d'affiches et de logotypes
-sous Indesign et Illustrator.</descriptif>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Mars 2010</datedebut>
+				<datefin>à Mars 2010</datefin>
+				<lieux>ASSOC' JEAN DE LA MENNAIS / RENNES</lieux>
+				<descriptif>Création de flyers, d'identité visuelle
+et de communication graphique
+pour sensibiliser la jeunesse
+à certaines problématiques.
+</descriptif>
+
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Octobre 2009</datedebut>
+				<datefin>à Octobre 2009</datefin>
+				<lieux>CHU DE PONTCHAILLOU / RENNES</lieux>
+				<descriptif>Réalisations des plaques
+de portes de la maternité du CHU.
+Sensibilisation à la création de mascottes.
+</descriptif>
+
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Juin 2009</datedebut>
+				<datefin>à Juin 2009</datefin>
+				<lieux>CHU DU HAUT-ANJOU / CHÂTEAU-GONTIER</lieux>
+				<descriptif>Création du livret d'accueil du personnel
+et d'affiches de sensibilisations
+sur des thématiques de santé.</descriptif>
+
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Janvier 2009</datedebut>
+				<datefin>à Janvier 2009</datefin>
+				<lieux>IMPRIM'SERVICES / LAVAL</lieux>
+				<descriptif>Création de petites travaux types
+cartes de voeux, dépliants,flyers etc.
+</descriptif>
+
+<intitule>Graphiste Print</intitule>
+				<datedebut>Janvier 2009</datedebut>
+				<datefin>à Janvier 2009</datefin>
+				<lieux>STUDIO VERSION 2 / LAVAL</lieux>
+				<descriptif>Création de visuelles
+à destinations de site Web (Lactalis),
+mais également une approche
+de la gestion de projet aux travers
+de la participation à la mise-en-page
+d'un catalogue.
+</descriptif>
 			</experience>
 		</article>
 
 		<article>
 			<competence>
-				<random>> Communication interne + externe</random>
-				<random>> Création de supports print</random>
-				<random>> Gestion de projet + organisation</random>
-				<random>> Bonne créativité + exécution</random>
-				<random>> Wordpress</random>
-				<random>> Culture Art graphique</random>
-				<random>> Packaging</random>
-				<random>> Dynamisme</random>
-				<random>> Ponctuelle</random>
+				<random>Communication interne + externe</random>
+				<random>Création de supports print</random>
+				<random>Gestion de projet + organisation</random>
+				<random>Bonne créativité + exécution</random>
+				<random>Culture Art graphique</random>
+				<random>Packaging</random>
+				<random>Dynamisme</random>
+				<random>Ponctuelle</random>
 			</competence>
 		</article>
 	</section>
@@ -113,17 +154,11 @@ sous Indesign et Illustrator.</descriptif>
 				<autre>Indesign > 75%</autre>
 				<autre>Wordpress > 10%</autre>
 				<autre>Gimp > 10%</autre>
-				<autre>HTML + CSS > 50%</autre>
+				<autre>HTML + CSS > 60%</autre>
 				<autre>Java Script > 0%</autre>
 				<autre>PHP > 0%</autre>
-				<autre>Pouet > 0%</autre>
-				<autre>Pouet > 0%</autre>
-				<autre>Pouet > 0%</autre>
-				<autre>Pouet > 0%</autre>
-								<autre>Pouet > 0%</autre>
-				<autre>Pouet > 0%</autre>
-				<autre>Pouet > 0%</autre>
-				<autre>Pouet > 0%</autre>
+				<autre>Bootstrap > 0%</autre>
+				<autre>Responsive Design > 10%</autre>
 			</custom>
 		</article>
 
