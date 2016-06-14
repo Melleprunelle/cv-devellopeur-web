@@ -7,12 +7,15 @@
 		<title>Welcome !</title>
   			<link rel="stylesheet" href="css/style1.css"/>
   			<link rel="stylesheet" href="css/bootstrap.css"/>
-
 	</head>
+
 <body class="container-fluid">
 
-<header class="row fond_titre_cv text-center"><h1 id="titre_cv" class="col-md-12 col-sm-12 col-lg-12 text-center">CV - Web Développeur</h1>
-<p class="accroche text-center">Après avoir étudier dans la communication graphique et le développement informatique. Je suis aujourd'hui en capacité de participer activement dans ses domaines de la communication. Ma motivation et ma persévérance me sont des atouts au quotidien pour me perfectionner et satisfaire la demande des clients.</p>
+<header class="row fond_titre_cv text-center">
+	<h1 id="titre_cv" class="col-md-12 col-sm-12 col-lg-12 text-center">CV - Web Développeur</h1>
+	<h2 class="text-center" id="accroche">Efficace, Communication, Graphisme, Technos, Technique</h2>
+	<p class="description text-center">Après avoir étudier dans la communication graphique et le développement informatique. Je suis aujourd'hui en capacité de participer activement dans
+	ses domaines de la communication. Ma motivation et ma persévérance me sont des atouts au quotidien pour me perfectionner et satisfaire la demande des clients.</p>
 </header>
 
 <section class="row">
@@ -28,9 +31,9 @@
 			</article>
 
 		<article class="col-md-4 col-sm-6 col-lg-4 categories">
-				<h1 class="text-center titre_h1">COMPÉTENCES</h1>
-				<h4 class="text-center titre_h4">Gestion - Communication - Créativité</h4>
-			<div class="container_article scroolbar text-center ">
+			<h1 class="text-center titre_h1">COMPÉTENCES</h1>
+			<h4 class="text-center titre_h4">Gestion - Communication - Créativité</h4>
+			<div class="container_paria scroolbar text-center ">
 				<xsl:for-each select="page/section/article/competence/random">
 				<p class="competences"><xsl:value-of select="titre"/></p>
 				</xsl:for-each>
@@ -39,7 +42,7 @@
 
 		<article class="col-md-4 col-sm-6 col-lg-4 categories">		<h1 class="text-center titre_h1">EXPÉRIENCES</h1>
 			<h4 class="text-center titre_h4">Stages - Emplois</h4>
-			<div class="container_article scroolbar text-center">
+			<div class="scroolbar text-center container_paria">
 				<xsl:for-each select="page/section/article/experience">
 				<p id="intitule"><xsl:value-of select="intitule"/></p>
 				<p id="datedebut"><xsl:value-of select="datedebut"/></p>
@@ -53,7 +56,7 @@
 		<article class="col-md-4 col-sm-6 col-lg-4 categories">
 			<h1 class="text-center titre_h1">FORMATIONS</h1>
 			<h4 class="text-center titre_h4">Mes diplômes</h4>
-			<div class="container_article scroolbar">
+			<div class="container_paria scroolbar text-center">
 				<xsl:for-each select="page/section/article/formation">
 				<p id="formation"><xsl:value-of select="intitule"/></p>
 				<p id="date"><xsl:value-of select="date"/></p>
@@ -86,9 +89,8 @@
 				<a href="mailto:lise.p.poirier@gmail.com" id="mail"><xsl:value-of select="page/section/article/contact/mail"/></a>
 			</div>
 		</article>
-
-
 </section>
+
 </body>
 </html>
 </xsl:template>
