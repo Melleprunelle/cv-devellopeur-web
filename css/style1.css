@@ -2,6 +2,8 @@
 
 .categories {margin: 25px 0px 25px 0px;height: 500px}
 
+/*Fond de la div qui contient l'entête*/
+
 .fond_titre_cv {background-color: #008080;
 				margin-bottom: 30px;
 				height: 1%;
@@ -11,20 +13,45 @@
 				justify-content: center;
 }
 
-.accroche {
+/*Css de l'accroche dans le header*/
+
+#accroche {
 	color: white;
+	font-size: 1.5em;
+	background-color: #F4661B;
+	width: 60%;
+	margin: 0px;
+	transform: rotate(0.1deg);
+}
+
+/*Css de la description dans le header*/
+
+.description {
+	color: #008080;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-bottom: 20px;
+	width: 80%;
 	max-width: 80%;
+	background-color: white;
+	transform: rotate(-0.1deg);
+	font-size: 1em;
 }
+
+/*Titre CV - Web Dévellopeur*/
 
 #titre_cv {
 	font-size: 1.8em;
-	color: white;
-	background-color: #008080;
-	margin-bottom: 20px
+	color: #008080;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 0px;
 	padding: 0px;
+	width: 50%;
+	transform: rotate(0.1deg);
 }
+
+/*Titre des catégories*/
 
 .titre_h1 {
 	padding:4px;
@@ -32,7 +59,11 @@
 	background-color: #008080;
 	font-size: 1.4em !important;
 	color: white;
+	margin: 0px auto 0px auto !important;
+
 }
+
+/*Sous-titres des catégories*/
 
 .titre_h4 {
 	background-color: #F4661B;
@@ -41,14 +72,11 @@
 	margin: 0px;
 	margin-bottom: 8px;
 	padding: 5px;
-}
+	margin: 0px auto 0px auto !important;
 
-h2 {
-	padding: auto !important;
-	margin: 0px !important;
 }
+/* CSS des articles*/
 
-/* CSS article */
 
 	.container_article {
 		font-family: "Roboto";
@@ -59,8 +87,17 @@ h2 {
 		background-color: #97DFC6;
 		height: 450px;
 	}
-
 	.container_article:hover {
+		background-color: white;
+		transition-duration: 2s;
+	}
+
+	.container_paria {
+		font-family: "Roboto";
+		background-color: #97DFC6;
+		height: 450px;
+	}
+	.container_paria:hover {
 		background-color: white;
 		transition-duration: 2s;
 	}
@@ -71,6 +108,7 @@ h2 {
 
 
 /* CSS de identité */
+
 
 		#prenom {
 			width: 50%;
@@ -103,46 +141,28 @@ h2 {
 			transform: rotate(-0.3deg);
 		}
 
-/*CSS de formation */
+/*CSS de competence*/
 
-	#formation {
-		color:white;
-		font-size: 1.4em;
-		background-color: white;
-		color: #008080;
-		width: 75%;
-		text-align: center;
-		margin-top: 15px;
-		margin-bottom: 0px;
-	}
 
-	#date {
-		font-size: 1em;
-		width: 50%;
-		background-color: #F4661B;
-		color: white;
-		transform: rotate(0.5deg);
-		text-align: center;
-		margin: 0px;
-	}
-
-	#ecole {
-		font-size: 1.2em;
-		width: 60%;
-		background-color: #008080;
-		color: white;
-		text-align: center;
-	}
-
+		.competences {
+			width: 230px;
+			font-size: 1.2em;
+			color: white;
+			background-color: #008080;
+			margin: auto;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
 
 /*CSS de experience*/
+
 
 		#intitule {
 			width: 75%;
 			font-size: 1.4em;
 			color: white;
 			background-color: #F4661B;
-			margin:50px 0px 0px 0px;
+			margin: 15px auto 0px auto !important;
 		}
 
 		#datedebut {
@@ -150,7 +170,7 @@ h2 {
 			width: 50%;
 			background-color: #008080;
 			color: white;
-			margin:0px;
+			margin: auto !important;
 
 		}
 		
@@ -159,7 +179,7 @@ h2 {
 			width: 55%;
 			background-color: #008080;
 			color: white;
-			margin:0px;
+			margin: auto !important;
 		}
 		
 		#lieux {
@@ -167,6 +187,7 @@ h2 {
 			color: white;
 			font-size: 1.2em;
 			background-color: #F4661B;
+			margin: auto !important;
 		}
 
 		#descriptif {
@@ -176,30 +197,41 @@ h2 {
 			background-color: white;
 			white-space: pre;
 			color: #008080;
+			margin: auto;
+			margin-bottom: 15px;
 		}
 
 
-/*CSS de competence*/
+/*CSS de formation */
 
-		.competences {
-			width: 230px;
-			font-size: 1.2em;
-			color: white;
-			background-color: #008080;
-		}
 
-		.competences_orange {
-			width: 300px;
-			height: 35px;
-			margin-top: 15PX;
-			padding-top: 6px;
-			padding-bottom: 10px;
-			text-align: center;
-			font-size: 18px;
-			color: white;
-			background-color: #008080;
-			transform: rotate(0.5deg);
-		}
+	#formation {
+		color:white;
+		font-size: 1.4em;
+		background-color: white;
+		color: #008080;
+		width: 75%;
+		margin-bottom: 0px;
+		margin: auto;
+		margin-top: 25px;
+	}
+
+	#date {
+		font-size: 1em;
+		width: 50%;
+		background-color: #F4661B;
+		color: white;
+		transform: rotate(0.5deg);
+		margin: auto;	}
+
+	#ecole {
+		font-size: 1.2em;
+		width: 60%;
+		background-color: #008080;
+		color: white;
+		margin: auto;
+		margin-bottom: 25px;
+	}
 
 
 /*CSS de custom */
