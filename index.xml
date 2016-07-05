@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!--<!DOCTYPE CV SYSTEM "cv.dtd">-->
-	<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+	<?xml-stylesheet type="text/xsl" href="cv_lise.xsl"?>
 
 <page>
 	<section>
@@ -33,7 +33,7 @@
 			</formation>
 
 			<formation>
-				<intitule>Bac Pro AMA Communication Graphique</intitule>
+				<intitule>Bac Pro AMA Com' Graphique</intitule>
 				<date>2010</date>
 				<ecole>St-Pierre-la-Joliverie</ecole>
 			</formation>
@@ -126,17 +126,14 @@ de produits laitiers.</descriptif>
 			<competence>
 				<random><titre>Gestion de projet</titre></random>
 				<random><titre>Organisation</titre></random>
-				<random><titre>Sens des priorités</titre></random>
-				<random><titre>Adaptabilité - Réactivité</titre></random>
+				<random><titre>Adaptabilité</titre></random>
 				<random><titre>Sens de l’analyse</titre></random>
 				<random><titre>Esprit d'équipe</titre></random>
 				<random><titre>Sens de la communication</titre></random>
-				<random><titre>Sens du contact</titre></random>
 				<random><titre>Relation clientèle</titre></random>
 				<random><titre>Ouverture d'esprit</titre></random>
 				<random><titre>Esprit Créatif</titre></random>
 				<random><titre>Sens esthétique</titre></random>
-				<random><titre>Sens critique</titre></random>
 				<random><titre>Sens de la veille</titre></random>
 				<random><titre>Persévérance</titre></random>
 				<random><titre>Curiosité</titre></random>
@@ -153,11 +150,11 @@ de produits laitiers.</descriptif>
 				<autre><titre>Illustrator - 90%</titre></autre>
 				<autre><titre>Photoshop - 85%</titre></autre>
 				<autre><titre>Indesign - 75%</titre></autre>
-				<autre><titre>Wordpress - 10%</titre></autre>
+				<autre><titre>Wordpress - 40%</titre></autre>
 				<autre><titre>Gimp - 10%</titre></autre>
-				<autre><titre>HTML + CSS - 60%</titre></autre>
-				<autre><titre>Bootstrap - 50%</titre></autre>
-				<autre><titre>Responsive Design - 50%</titre></autre>
+				<autre><titre>HTML + CSS - 80%</titre></autre>
+				<autre><titre>Bootstrap - 75%</titre></autre>
+				<autre><titre>Responsive Design - 75%</titre></autre>
 			</custom>
 		</article>
 
