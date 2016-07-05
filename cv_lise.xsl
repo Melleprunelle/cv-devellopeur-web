@@ -9,6 +9,8 @@
                 <link rel="stylesheet" href="css/style1.css" />
                 <link rel="stylesheet" href="css/bootstrap.css" />
                 <link type="text/css" rel="stylesheet" href="fonts/font-awesome.css" />
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
             </head>
 
             <body class="container-fluid">
@@ -21,7 +23,7 @@
 
                 <section class="row">
                     <article class="col-md-4 col-sm-6 col-lg-4 categories">
-                        <h1 class="text-center titre_h1">INFOS</h1>
+                        <h1 class="text-center titre_h1"><i class="fa fa-info" aria-hidden="true"></i> | INFOS</h1>
                         <h4 class="text-center titre_h4">Hello world</h4>
                         <div class="container_article text-center">
                             <h2 class="prenom"><xsl:value-of select="page/section/article/identite/prenom"/></h2>
@@ -35,7 +37,7 @@
                     </article>
 
                     <article class="col-md-4 col-sm-6 col-lg-4 categories">
-                        <h1 class="text-center titre_h1">COMPÉTENCES</h1>
+                        <h1 class="text-center titre_h1"><i class="fa fa-cog" aria-hidden="true"></i> | COMPÉTENCES</h1>
                         <h4 class="text-center titre_h4">Gestion - Communication - Créativité</h4>
                         <div class="container_scroll scroolbar text-center ">
                             <xsl:for-each select="page/section/article/competence/random">
@@ -47,7 +49,7 @@
                     </article>
 
                     <article class="col-md-4 col-sm-6 col-lg-4 categories">
-                        <h1 class="text-center titre_h1">EXPÉRIENCES</h1>
+                        <h1 class="text-center titre_h1"> <i class="fa fa-user-plus" aria-hidden="true"></i> | EXPÉRIENCES</h1>
                         <h4 class="text-center titre_h4">Stages - Emplois</h4>
                         <div class="scroolbar text-center container_scroll">
                             <xsl:for-each select="page/section/article/experience">
@@ -63,15 +65,19 @@
                                 <p class="lieux">
                                     <xsl:value-of select="lieux" />
                                 </p>
-                                <p class="descriptif">
-                                    <xsl:value-of select="descriptif" />
+                                <p class="descriptif descriptif_experience_2" data-toggle="collapse" data-target="#descrip">Découvrir mes missions <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                                 </p>
+                                <div id="descrip" class="collapse descriptif_experience">
+                                    <p class="descriptif">
+                                        <xsl:value-of select="descriptif" />
+                                    </p>
+                                </div>
                             </xsl:for-each>
                         </div>
                     </article>
 
                     <article class="col-md-4 col-sm-6 col-lg-4 categories">
-                        <h1 class="text-center titre_h1">FORMATIONS</h1>
+                        <h1 class="text-center titre_h1"><i class="fa fa-graduation-cap" aria-hidden="true"></i> | FORMATIONS</h1>
                         <h4 class="text-center titre_h4">Mes diplômes</h4>
                         <div class="container_scroll scroolbar text-center">
                             <xsl:for-each select="page/section/article/formation">
@@ -89,7 +95,7 @@
                     </article>
 
                     <article class="col-md-4 col-sm-6 col-lg-4 categories">
-                        <h1 class="text-center titre_h1">TECHNOS</h1>
+                        <h1 class="text-center titre_h1"><i class="fa fa-th" aria-hidden="true"></i> | TECHNOS</h1>
                         <h4 class="text-center titre_h4">Logiciels - Technos</h4>
                         <div class="container_article scroolbar">
                             <xsl:for-each select="page/section/article/custom/autre">
@@ -101,7 +107,7 @@
                     </article>
 
                     <article class="col-md-4 col-sm-6 col-lg-4 categories">
-                        <h1 class="text-center titre_h1">CONTACT</h1>
+                        <h1 class="text-center titre_h1"><i class="fa fa-paper-plane" aria-hidden="true"></i> | CONTACT</h1>
                         <h4 class="text-center titre_h4">Merci pour votre attention</h4>
                         <div class="container_article text-center">
                             <div class="adresse">
@@ -133,6 +139,7 @@
 
 
             </body>
+            <script src="js/collapse.js"></script>
 
             </html>
         </xsl:template>
