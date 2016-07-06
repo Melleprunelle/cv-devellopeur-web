@@ -6,11 +6,11 @@
 
             <head>
                 <title>Welcome !</title>
-                <link rel="stylesheet" href="css/style1.css" />
+                <link rel="stylesheet" href="css/style.css" />
                 <link rel="stylesheet" href="css/bootstrap.css" />
                 <link type="text/css" rel="stylesheet" href="fonts/font-awesome.css" />
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                <script src="js/jquery.js"></script>
+                <script src="js/bootstrap.min.js"></script>
             </head>
 
             <body class="container-fluid">
@@ -18,7 +18,7 @@
                 <header class="row fond_titre_cv text-center">
                     <h1 class="col-md-12 col-sm-12 col-lg-12 text-center titre_cv">CV - Web Développeur</h1>
                     <h2 class="text-center accroche">Efficacité, Communication, Front-end, Graphisme</h2>
-                    <p class="description text-center">Après avoir étudier dans la communication graphique et le développement informatique. Je suis aujourd'hui en capacité de participer activement dans ses domaines de la communication. Ma motivation et ma persévérance me sont des atouts au quotidien pour me perfectionner et satisfaire la demande des clients.</p>
+                    <p class="description text-center">Après avoir étudié dans la communication graphique et le développement informatique. Je suis aujourd'hui en capacité de participer activement dans ses domaines de la communication. Ma motivation et ma persévérance me sont des atouts au quotidien pour me perfectionner et satisfaire la demande des clients.</p>
                 </header>
 
                 <section class="row">
